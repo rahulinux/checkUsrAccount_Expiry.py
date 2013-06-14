@@ -77,7 +77,6 @@ with open( "/etc/shadow" ) as shadow:
         for aLine in shadow:
                 filed = aLine.split(":")
                 Ac = filed[7]
-                Pws = filed[3]
                 try:
                         Ac = int(Ac)
                         exprdate = convUnixTime(Ac)
