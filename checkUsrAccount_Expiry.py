@@ -126,15 +126,4 @@ if __name__ == "__main__":
        else:
                 print "No User Account has been Expire"
 
-"""
-Script Output
-====>>Following 3 Account has been Expired
-rahul    :: Expired on 2013-06-12 05:30:00
-test     :: Expired on 2013-06-01 05:30:00
-vinayak  :: Expired on 1970-01-01 05:30:00
-====>>Following 4 Account will be Expire in 20 Days
-suraj    :: 2  days || Last date :: 2013-06-15 05:30:00
-ram      :: 1  days || Last date :: 2013-06-14 05:30:00
-javed    :: 2  days || Last date :: 2013-06-15 05:30:00
-shyam    :: 2  days || Last date :: 2013-06-15 05:30:00
-"""
+
